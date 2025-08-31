@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 55px;
+    color: darkorchid;
+    font-weight: 900;
+}
+
+#container{
+    width: 550px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 25px;
+
+}
+
+#timer{
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(98, 98, 98);
+    font-family: monospace;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.749);
+    margin-bottom: 20px;
+}
+
+#keys{
+    display: flex;
+    gap: 25px;
+}
+
+button{
+    min-width: 130px;
+    height: 60px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#start{
+    background-color: rgb(0, 220, 0);
+}
+
+#start:hover{
+    background-color: rgba(0, 220, 0, 0.691);
+}
+
+#start:active{
+    background-color: rgba(0, 220, 0, 0.482);
+}
+
+#stop{
+    background-color: rgb(255, 0, 0);
+}
+
+#stop:hover{
+    background-color: rgba(255, 0, 0, 0.691);
+}
+
+#stop:active{
+    background-color: rgba(255, 0, 0, 0.482);
+}
+
+#reset{
+    background-color: rgb(0, 147, 220);
+}
+
+#reset:hover{
+    background-color: rgba(0, 147, 220, 0.691);
+}
+
+#reset:active{
+    background-color: rgba(0, 147, 220, 0.482);
+}
