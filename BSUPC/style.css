@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Libertinus Serif Display", system-ui;
+}
+
+#main{
+    background-image: url(//media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExemdzMDlvOGRmNWo4bWQxMGlwZ2hjbThjMTI4d3YxcmV3bTFlZzF3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5vIOUDb7uOFOz9tyz1/giphy.gif);
+    background-size: cover;
+    padding: 40px 0 30px 0;
+}
+
+#logo{
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+#title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #3da38b;
+    text-shadow: 0 0 1px black;
+    margin-bottom: 360px;
+}
+
+.underlined{
+    border-bottom: 8px solid #3da38b;
+}
+
+#btn{
+    font-family: inherit;
+    font-size: 50px;
+    border: none;
+    color: #3da38b;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-weight: 800;
+    background: white;
+}
+
+#btm{
+    font-size: 30px;
+}
